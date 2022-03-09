@@ -1,0 +1,343 @@
+body,*{
+    margin: 0%;
+    padding: 0%;
+    background-color: #171717;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.textbox{
+  font-size: 63px;
+    margin-left: 65px;
+}
+h1{
+    display: inline-block;
+}
+/* h1.i:hover::before{
+ content: "HOME";
+}
+h1.i.hover::before{
+    content: "HOME";
+} */
+/* .am:hover::before{
+ content: "HOME";
+} */
+
+button {
+    width: 6em
+  }
+  /* h1.i span {
+    transition: transform 0.3s ease;
+  transform: translateX(0px);
+  } 
+   */
+  .buttonss a{
+    /* margin-top: 30px; */
+    display: inline-block;
+    border-radius: 6px;
+    border:2px solid rgb(253 253 253 / 71%);
+    color: rgb(253, 253, 253);
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+  .btn{
+    background-color: #818587;
+    color: black;
+    margin-left: 30px;
+    font-weight: 600;
+  }
+ 
+  h1.i:hover span {
+    color: antiquewhite;
+    text-decoration: none;
+    display: none;
+    /* transform: translateX(10px); */
+
+ 
+  }
+  /* .animate{
+    animation: animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    -webkit-animation-fill-mode: backwards;
+    -moz-animation-fill-mode: backwards;
+    animation-fill-mode: backwards;
+}
+  @keyframes animate {
+    0% {
+        opacity: 0;
+        transform: translateY(30vh);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+      
+  } */
+  
+  h1.i:hover{
+      margin-left: -13px;
+  }
+  h1.i:hover:after {
+    color: antiquewhite;
+        content: "ABOUT";
+        margin-left: -13px;
+        text-decoration: none;
+       
+
+        
+  }
+  h1.am:hover span {
+    display: none
+  }
+  
+  h1.am:hover:after {
+    content: "WORK"
+  }
+  h1.Umar:hover span {
+    color: antiquewhite;
+    text-decoration: none;
+    display: none;
+  }
+  
+  h1.Umar:hover:after {
+    color: antiquewhite;
+        content: "BLOG";
+        text-decoration: none;
+        
+  }
+
+
+ 
+body{
+  animation: transitionIn 0.75s;
+}
+
+  @keyframes transitionIn{
+    from{
+    opacity: 0;
+    transform: rotateY(-20px);
+    }
+    to
+    {
+      opacity: 1;
+      transform: rotateY(-10);
+    }
+  }
+  .container2{
+    display: flex;
+    flex-direction: row;
+    animation: transitionIn 0.75s;
+  }
+.left1 {
+    margin-right: 2%;
+    margin-top: 50px;
+    color: antiquewhite;
+    background-color: #171717;
+    /* -webkit-box-sizing: border-box; */
+    box-sizing: border-box;
+    position: relative;
+}
+.skillBox {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+}
+.skillBox p {
+    color: antiquewhite;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+    /* font-family: bold; */
+}
+.skillBox .skill_text {
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.skillBox .skill {
+    background-color: #262626;
+    padding: 2px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid antiquewhite;
+    border-radius: 2px;
+}
+.skill .skill_level {
+    background-color: #3eff5e;
+    width: 100%;
+    height: 10px;
+}
+.linux{
+    -webkit-animation: PHP 2s forwards;
+    animation: PHP 2s forwards;
+}
+@-webkit-keyframes PHP {
+    from {
+       width: 0%
+   }
+    to {
+       width: 60%
+   }
+}
+@keyframes PHP {
+    from {
+       width: 0%
+   }
+    to {
+       width: 60%
+   }
+}
+.bash{
+    -webkit-animation: HTML 2s forwards;
+    animation: HTML 2s forwards;
+}
+@-webkit-keyframes HTML {
+    from {
+       width: 0%
+   }
+    to {
+       width: 80%
+   }
+}
+@keyframes HTML {
+    from {
+       width: 0%
+   }
+    to {
+       width: 100%
+   }
+}
+.c-cpp{
+    -webkit-animation: c-cpp 2s forwards;
+    animation: c-cpp 2s forwards;
+}
+@-webkit-keyframes c-cpp {
+    from {
+       width: 0%
+   }
+    to {
+       width: 75%
+   }
+}
+@keyframes c-cpp {
+    from {
+       width: 0%
+   }
+    to {
+       width: 75%
+   }
+}
+.java{
+    -webkit-animation: java 2s forwards;
+    animation: java 2s forwards;
+}
+@-webkit-keyframes java {
+    from {
+       width: 0%
+   }
+    to {
+       width: 70%
+   }
+}
+@keyframes java {
+    from {
+       width: 0%
+   }
+    to {
+       width: 70%
+   }
+}
+.python{
+    -webkit-animation: python 2s forwards;
+    animation: python 2s forwards;
+}
+@-webkit-keyframes python {
+    from {
+       width: 0%
+   }
+    to {
+       width: 65%
+   }
+}
+@keyframes python {
+    from {
+       width: 0%
+   }
+    to {
+       width: 65%
+   }
+}
+.git{
+    -webkit-animation: git 2s forwards;
+    animation: git 2s forwards;
+}
+@-webkit-keyframes git {
+    from {
+       width: 0%
+   }
+    to {
+       width: 80%
+   }
+}
+@keyframes git {
+    from {
+       width: 0%
+   }
+    to {
+       width: 80%
+   }
+}
+.fiber a{
+  /* text-decoration: none; */
+  color: antiquewhite;
+}
+p svg{
+    fill: antiquewhite;
+    width: 12px;
+    height: 12px;
+
+}
+.github23:hover{
+    font-size: 17px;
+}
+.email23:hover{
+    font-size: 17px;
+}
+.linkedin23:hover{
+    font-size: 17px;
+}
+@keyframes bounce {
+    0% {
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-8px);
+    }    
+}
+.tap{
+    animation: bounce .5s cubic-bezier(.5, .6, .6, 1) infinite alternate;
+    position: fixed;
+    display: none;
+}
+@media only screen and (max-width: 1165px){
+    .tap{
+        display: block;
+    }
+}
+@media only screen and (max-width: 994px){
+  .btn{
+      margin-left: 0%;
+      margin-top: 5%;
+  }
+}
+
